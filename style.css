@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: black;
+    display: flex;
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo img{
+    width: 100px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.image{
+        width: 100%; 
+        max-width: 1270px;
+        height: auto; 
+        border-radius: 10px; 
+}
+
+ul{
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li{
+    margin-bottom: 30px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+}
+
+nav ul li{
+    margin-right: 80px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+nav ul li a:hover{
+    color: red;
+    text-align: center;
+}
+
+.content{
+    padding: 10px;
+    text-align: center;
+}
+
+section{
+    margin: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.About{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.about-content{
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.about-image{
+    width: 100%; 
+    max-width: 400px;
+    height: auto; 
+    border-radius: 8px;
+}
+
+.contact{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.contact-content{
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.map-container{
+    float: right; 
+    width: 100%; 
+    max-width: 600px;
+    height: auto;
+    margin-top: -400px; 
+}
+
